@@ -1,0 +1,16 @@
+body {
+    border: 3px solid red;
+}
+
+//Common
+@import "./reset";
+@import "./common";
+@import "./colors";
+
+
+//Components
+@import "../components/template-description/template-description";
+
+//Forms
+@import "../forms/main-view/main-view";
+@import "../forms/template-main-form/template-main-form";

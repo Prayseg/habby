@@ -1,0 +1,17 @@
+.main-view {
+    background: #fff;
+    border: 1px solid $border-grey;
+    border-bottom: none;
+    border-top: none;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+    width: 1200px;
+    &__title {
+        color: #606060;
+        text-align: center;
+        padding: 10px 7px 40px;
+        font: normal 36px/40px "Times New Roman", sans-serif;
+    }
+}

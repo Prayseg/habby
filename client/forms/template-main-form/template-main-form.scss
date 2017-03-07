@@ -1,0 +1,19 @@
+.template-main-form {
+    &__list {
+        border: 1px solid $border-grey;
+        border-radius: 5px;
+        height: 250px;
+        margin-bottom: 20px;
+        padding: 5px 7px;
+        overflow-y: scroll;
+        cursor: pointer;
+        &-item {
+            padding: 7px 10px;
+            color: #606060;
+            font: 14px/16px Tahoma, sans-serif;
+            &:hover {
+                background: #DCE5E2;
+            }
+        }
+    }
+}

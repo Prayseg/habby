@@ -1,0 +1,25 @@
+.template-description {
+    font-size: 14px/17px Tahoma, ;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
+    & tr {
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    &__value {
+
+    }
+
+    &__wrapper {
+        height: 500px;
+        border: 1px solid $border-grey;
+        border-radius: 5px;
+        padding: 20px;
+    }
+}
